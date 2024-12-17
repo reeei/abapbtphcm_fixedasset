@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZCL_MSG_INVENTORY</ARBGB>
+    <MASTERLANG>J</MASTERLANG>
+    <STEXT>Message class for inventory</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>J</SPRSL>
+     <ARBGB>ZCL_MSG_INVENTORY</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>登録済みのレコードが残っています。削除後に再実行して下さい。</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>J</SPRSL>
+     <ARBGB>ZCL_MSG_INVENTORY</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>&amp;1件分のレコード登録が正常に完了しました。</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>J</SPRSL>
+     <ARBGB>ZCL_MSG_INVENTORY</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>区分値&apos; &amp;1&apos;は存在しません。</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

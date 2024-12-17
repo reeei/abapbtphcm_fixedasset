@@ -1,0 +1,13 @@
+projection;
+strict ( 2 );
+
+define behavior for ZC_INVENTORY alias ZC_INVENTORY_BD
+{
+  use create;
+  use update;
+  use delete;
+
+  use action initFixedAsset;
+  use action apprInventoryStatus;
+  use action updInventoryStatus;
+}

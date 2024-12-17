@@ -1,0 +1,27 @@
+managed implementation in class zbp_i_inventory unique;
+strict ( 2 );
+
+define behavior for ZI_INVENTORY alias ZI_INVENTORY_BD
+persistent table zinventory
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+
+  //standard operations for travel entity
+  create;
+  update;
+  delete ( features : global );
+
+  //field ( readonly ) comp_code, asset_no, asset_subno;
+  field ( readonly, numbering : managed ) mykey;
+
+  //instance action and dynamic action control
+  //static default factory action initFixedAsset [1];
+  static action initFixedAsset result [1] $self;
+  action ( features : instance ) apprInventoryStatus parameter za_inventory_approval result [1] $self;
+  action ( features : instance ) updInventoryStatus parameter za_inventory_status result [1] $self;
+
+  //1件の更新用にvalidationを入れる。
+
+}

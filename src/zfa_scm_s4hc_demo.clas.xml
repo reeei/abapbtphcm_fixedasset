@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZFA_SCM_S4HC_DEMO</CLSNAME>
+    <LANGU>J</LANGU>
+    <DESCRIPT>Consumption model for client proxy - generated</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZFA_SCM_S4HC_DEMO</CLSNAME>
+     <CMPNAME>DEF_YY_1_FIXED_ASSET_APITYPE</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Define YY1_FixedAsset_APIType</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZFA_SCM_S4HC_DEMO</CLSNAME>
+     <CMPNAME>GCS_ENTITY_SET</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Internal Names of the entity sets</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZFA_SCM_S4HC_DEMO</CLSNAME>
+     <CMPNAME>GCS_ENTITY_TYPE</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Internal names for entity types</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZFA_SCM_S4HC_DEMO</CLSNAME>
+     <CMPNAME>MO_MODEL</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Model</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZFA_SCM_S4HC_DEMO</CLSNAME>
+     <CMPNAME>TYS_YY_1_FIXED_ASSET_APITYPE</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>YY1_FixedAsset_APIType</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZFA_SCM_S4HC_DEMO</CLSNAME>
+     <CMPNAME>TYT_YY_1_FIXED_ASSET_APITYPE</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>List of YY1_FixedAsset_APIType</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>DEF_YY_1_FIXED_ASSET_APITYPE</CMPNAME>
+     <SCONAME>/IWBEP/CX_GATEWAY</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Gateway Exception</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
